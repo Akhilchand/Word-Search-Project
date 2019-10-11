@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Word Search</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#search" ).autocomplete({
+      source: "/search/",
+      minLength: 1,
+    });
+  });
+  </script>
+</head>
+<body bgcolor="#afafaf">
+  <br>
+<div class="ui-widget" <br>
+  <h2>Word Search</h2>
+  <form action= "/searchResults" method= "GET">
+      <input id="search" type="text" placeholder="enter word" name="term" size="25">
+      <input type="submit" value="Search">
+  </form>
+</div>
+</body>
+</html>
+
+<br>
+
+<br>
+
+<marquee style="font-size: 100;" behavior="alternate">*** FullThrottle Labs ***</marquee>

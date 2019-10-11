@@ -1,0 +1,1 @@
+web: gunicorn websearch_pro.wsgi
