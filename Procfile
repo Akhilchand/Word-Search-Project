@@ -1,1 +1,1 @@
-web: gunicorn websearch_pro.wsgi
+web: gunicorn wordsearch_pro.wsgi
