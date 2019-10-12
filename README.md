@@ -32,3 +32,12 @@ GET http://localhost:8000/searchResults/?term=India
 This endpoint finally returns a response which is of JSON array containing 25 results, ranked by criteria (see below):
 
 Matches occurs anywhere in the string, not just at the beginning. For example, eryx matches archaeopteryx (among others). Matches at the start of a word ranks higher, For example, for the input India, the result practical ranks higher than impractical. Common words (those with a higher usage count) ranks higher than rare words. Short words ranks higher than long words. For example, given the input environ, the result environment ranks higher than environmentalism. An exact match should always be ranked as the first result.
+
+
+Please refer the documents 'Deploying to GitHub doc.txt' and 'Deploying to Herouku doc.txt' for step by step procedure on deploying our project or app on GitHub account and Heroku Server.
+
+Wordsearch_pro app is deployed on Heroku server with below link.
+
+https://akhilweb.herokuapp.com/
+
+
